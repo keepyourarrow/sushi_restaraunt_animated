@@ -156,7 +156,7 @@ header {
   transition: transform 1s ease-in-out;
 }
 .photos img:hover {
-  opacity: 0.9;
+  opacity: 0.6;
   transform: scale(1.15);
 }
 .photos h2 {
