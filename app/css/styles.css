@@ -148,18 +148,18 @@ header {
 .img-container {
   position: relative;
 }
-.photos img {
+.img-container img {
   width: 100%;
   height: 20rem;
   margin: 2rem 0;
   border-radius: 2rem;
   transition: transform 1s ease-in-out;
 }
-.photos img:hover {
+.img-container:hover img {
   filter: blur(8px);
   transform: scale(1.15);
 }
-.photos h2 {
+.img-container h2 {
   position: absolute;
   top: 0%;
   left: 50%;
@@ -175,7 +175,7 @@ header {
   width: 0;
   overflow: hidden;
 }
-.photos .img-container:hover h2 {
+.img-container:hover h2 {
   text-align: center;
   position: absolute;
   top: 50%;
